@@ -1,4 +1,11 @@
 /* Base Styles */
+html {
+  box-sizing: border-box;
+}
+*,
+* ::before * ::after {
+  box-sizing: inherit;
+}
 :root {
   --accent: #4d5ae5;
   --links-color: #2e2f42;
@@ -31,6 +38,7 @@
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  font-style: normal;
 }
 
 /* Header Styles */
