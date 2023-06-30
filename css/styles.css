@@ -95,7 +95,7 @@ ul {
 
 .header-nav {
   display: flex;
-  outline: solid tomato;
+  align-items: center;
 }
 .heder-container {
   display: flex;
@@ -144,6 +144,8 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  padding: 24px 0px;
+  display: block;
 }
 
 .header-contacts-address {
@@ -153,11 +155,11 @@ ul {
 
 .header-contacts-list {
   display: flex;
-  outline: solid #4d5ae5;
+
+  gap: 40px;
 }
 
 .header-contacts-item {
-  margin-left: 40px;
 }
 .header-contact-link {
 }
