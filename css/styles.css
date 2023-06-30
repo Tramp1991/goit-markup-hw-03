@@ -240,7 +240,7 @@ ul {
 
 .strategy-item {
   --items: 4;
-  flex-basis: calc((100% - 24px * 4) / 4);
+  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .strategy-subtitle {
   color: var(--subtitle-color, #2e2f42);
