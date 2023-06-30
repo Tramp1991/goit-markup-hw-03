@@ -91,7 +91,7 @@ ul {
   justify-content: center;
 }
 .grid-item {
-  flex-basis: calc((100% - 24px * var(--items)) / var(--items));
+  flex-basis: calc((100% - 24px * (var(--items) - 1)) / var(--items));
 }
 
 /* Header Styles */
