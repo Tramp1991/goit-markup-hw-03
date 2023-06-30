@@ -54,7 +54,6 @@ ul {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: solid red;
 }
 
 /* Body blok */
@@ -137,7 +136,7 @@ ul {
 }
 .header-list {
   display: flex;
-  outline: solid #434455;
+
   gap: 40px;
 }
 .list {
@@ -379,6 +378,11 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.64px;
   cursor: pointer;
+  margin: 0 auto;
+  padding: 12px 24px 12px 24px;
+  border: none;
+  border-radius: 4px;
+  min-width: 69px;
 }
 
 .filt-btn:hover,
