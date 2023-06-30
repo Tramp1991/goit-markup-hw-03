@@ -5,6 +5,7 @@
   --secondary-text-color: #fff;
   --subtitle-color: #2e2f42;
   --footer-text: #f4f4fd;
+  --items: 3;
 }
 
 /* Base Styles */
@@ -78,7 +79,7 @@ ul {
   justify-content: center;
 }
 .grid-item {
-  flex-basis: calc((100% - 72px) / 3);
+  flex-basis: calc((100% - 24px * var(--items)) / var(--items));
 }
 
 /* Header Styles */
@@ -205,6 +206,7 @@ ul {
   padding: 16px 32px 16px 32px;
   border: none;
   border-radius: 4px;
+  min-width: 169px;
 }
 
 .hero-btn:hover,
@@ -225,6 +227,7 @@ ul {
 }
 
 .strategy-item {
+  --items: 4;
 }
 .strategy-subtitle {
   color: var(--subtitle-color, #2e2f42);
@@ -290,6 +293,7 @@ ul {
 .team-item {
   background-color: #ffffff;
   padding-bottom: 32px;
+  --items: 4;
 }
 
 .team-desc {
