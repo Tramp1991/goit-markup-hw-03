@@ -240,7 +240,6 @@ ul {
 
 .strategy-item {
   --items: 4;
-  flex-basis: calc((100% - 24px * 3) / 4);
 }
 .strategy-subtitle {
   color: var(--subtitle-color, #2e2f42);
@@ -393,10 +392,12 @@ ul {
 .gallary-list {
 }
 .gallary-item {
+  padding-bottom: 32px;
 }
 .gallary-link {
 }
 .gallary-img {
+  padding-bottom: 32px;
 }
 .gallary-title {
   color: var(--subtitle-color, #2e2f42);
@@ -404,6 +405,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 .gallary-desc {
   font-size: 16px;
