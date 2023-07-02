@@ -411,11 +411,18 @@ ul {
 
 /* Galary */
 .gallary-list {
+  row-gap: 48px;
 }
 .gallary-item {
   padding-bottom: 32px;
 }
 .gallary-link {
+}
+.galary-link-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 .gallary-img {
   padding-bottom: 32px;
