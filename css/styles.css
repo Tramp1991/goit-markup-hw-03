@@ -303,6 +303,8 @@ ul {
   letter-spacing: 0.4px;
   margin-bottom: 8px;
 }
+.team-name-container {
+}
 
 .team-list {
 }
@@ -311,7 +313,7 @@ ul {
   background-color: #ffffff;
   padding-bottom: 32px;
   --items: 4;
-  border-radius: 0px 0px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-desc {
